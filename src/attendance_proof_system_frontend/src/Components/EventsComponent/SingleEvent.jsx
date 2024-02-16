@@ -32,7 +32,8 @@ const SingleEvent = () => {
         try {
             await backendActor.deleteEvent(eventId).then((res) => {
                 setIsLoading(false);
-                if (res === 'successfully deleted event') {
+                if (res === 'Successfully deleted event') {
+                    toast.success(res);
                     navigate('/dashboard')
                     return true;
                 }

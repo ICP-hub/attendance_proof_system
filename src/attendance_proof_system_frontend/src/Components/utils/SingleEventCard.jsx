@@ -23,7 +23,7 @@ const SingleEventCard = ({ eventData, setEditEvent, setDeleteEvent }) => {
                 <div className="overflow-y-auto overflow-x-hidden my-4 flex justify-start items-start h-full flex-wrap w-full">
                     <p className="text-md sm:text-lg md:text-lg text-gray-600 lg:my-3 md:my-2 sm:my-1 max-h-32 px-2">{eventData?.description}</p>
                 </div>
-                <div className="flex flex-col justify-center items-start h-2/4 flex-wrap w-full gap-4 text-xs sm:text-base">
+                <div className="flex justify-center items-start h-2/4 flex-wrap w-full gap-4 text-xs sm:text-base">
                     <div className="flex w-full flex-col sm:flex-row justify-center items-center px-4 gap-2 sm:gap-0">
                         <p className="w-full font-bold text-black">{t("singleEventCard.startTimeTitle")} <span className="ml-5 font-normal">{eventData?.startTime ? convertNanosecondsToDate(eventData?.startTime) : t("singleEventCard.noTime")}</span></p>
                         <p className="w-full font-bold text-black">{t("singleEventCard.endTimeTitle")} <span className="ml-5 font-normal">{eventData?.endTime ? convertNanosecondsToDate(eventData?.endTime) : t("singleEventCard.noTime")}</span></p>
