@@ -1,2 +1,0 @@
-# attendance_proof_system
-attendance_proof_system
