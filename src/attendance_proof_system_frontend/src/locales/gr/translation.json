@@ -11,6 +11,9 @@
     "login": {
         "heading": "Anmelden, um Belohnungen zu erhalten",
         "helpText": "Sie sind nur einen Schritt davon entfernt, Ihre Belohnungen zu erhalten. Bitte melden Sie sich jetzt an, um Ihre Belohnungen zu beanspruchen. Denken Sie daran, dass Sie Ihre Belohnungen nur einmal beanspruchen können.",
+        "claimHelpText01": "Hallo, Sie haben Ihren Sitzplatz erfolgreich für ",
+        "claimHelpText02": " mit diesem einzigartigen Code ",
+        "claimHelpText03": "Bitte melden Sie sich an, um Ihre Belohnungen zu beanspruchen.",
         "internetIdentity": "Internet-Identität",
         "loading": "Wird geladen..."
     },
@@ -20,7 +23,8 @@
         "noEvent": "Kein Name",
         "noSeat": "Kein Sitzplatz",
         "helpText": "Schön, dass Sie sich angemeldet haben! Sie sind jetzt bereit, Ihren Sitzplatz für die ICP-Veranstaltung zu beanspruchen. Klicken Sie einfach auf die Schaltfläche 'Sitzplatz beanspruchen', um loszulegen. Diese Nummer ist entscheidend, um auf Veranstaltungsmaterialien zuzugreifen und vollständig teilzunehmen. Wenn Sie Probleme haben oder Fragen haben, steht Ihnen unser Support-Team zur Verfügung. Viel Spaß bei der Veranstaltung!",
-        "welcomeText": "Willkommen bei {{eventName}}! Ihre Anmeldung über ICP war erfolgreich, und Sie haben Ihren Sitzplatz mit der Nummer: {{seatNo}} beansprucht. Diese Nummer ist entscheidend für Ihre Teilnahme und Erfahrungen während der Veranstaltung. Wenn Sie Fragen haben oder Hilfe benötigen, steht Ihnen unser Support-Team zur Verfügung. Genießen Sie Ihre Zeit auf der Veranstaltung!",
+        "welcomeText00": "Willkommen bei der Veranstaltung :!",
+        "welcomeText01": "Ihr Login über ICP war erfolgreich, und Sie haben Ihren Sitzplatz mit der Nummer: {{seatNo}} beansprucht. Diese Nummer ist der Schlüssel zu Ihrer Teilnahme und Ihren Erfahrungen während der Veranstaltung. Wenn Sie Fragen haben oder Unterstützung benötigen, steht Ihnen unser Support-Team jederzeit zur Verfügung. Genießen Sie Ihre Zeit auf der Veranstaltung!",
         "claimSeat": "Sitzplatz beanspruchen",
         "alreadyClaimed": "Bereits beansprucht"
     },

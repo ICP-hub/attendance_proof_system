@@ -37,7 +37,7 @@ shared ({ caller = owner }) actor class () {
     };
 
     // Generate a unique event ID
-    let eventId : Text = Text.toLowercase(Text.replace(eventInfo.name, #char ' ', "")) # Int.toText(now());
+    let eventId : Text = Text.toLowercase(Text.replace(eventInfo.name, #char ' ', "_")) # Int.toText(now());
 
     // Update the list of event IDs
     eventIds := List.push(eventId, eventIds);

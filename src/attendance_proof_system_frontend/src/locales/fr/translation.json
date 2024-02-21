@@ -11,6 +11,9 @@
     "login": {
         "heading": "Connectez-vous pour réclamer des récompenses",
         "helpText": "Vous êtes à un pas de réclamer vos récompenses. Veuillez vous connecter maintenant pour réclamer vos récompenses. Rappelez-vous, vous ne pouvez réclamer vos récompenses qu'une seule fois.",
+        "claimHelpText01": "Bonjour, vous avez réservé votre place avec succès pour ",
+        "claimHelpText02": " avec ce code unique ",
+        "claimHelpText03": "Veuillez vous connecter pour réclamer vos récompenses.",
         "internetIdentity": "Identité Internet",
         "loading": "Chargement..."
     },
@@ -20,7 +23,8 @@
         "noEvent": "Pas de nom",
         "noSeat": "Pas de siège",
         "helpText": "C'est génial de vous voir connecté ! Vous êtes maintenant prêt à réclamer votre numéro de siège pour l'événement ICP. Il vous suffit de cliquer sur le bouton 'Réclamer un siège' pour commencer. Ce numéro est essentiel pour accéder aux documents de l'événement et participer pleinement. Si vous rencontrez des problèmes ou avez des questions, notre équipe de support est là pour vous aider. Profitez de l'événement !",
-        "welcomeText": "Bienvenue à {{eventName}} ! Votre connexion via ICP a réussi, et vous avez réclamé votre siège avec le numéro : {{seatNo}}. Ce numéro est essentiel pour votre engagement et vos expériences tout au long de l'événement. Si vous avez des questions ou avez besoin d'aide à tout moment, notre équipe de support est là pour vous aider. Profitez de votre temps à l'événement !",
+        "welcomeText00": "Bienvenue à l'événement :!",
+        "welcomeText01": "Votre connexion via ICP a été réussie, et vous avez réservé votre place avec le numéro : {{seatNo}}. Ce numéro est la clé de votre participation et de vos expériences tout au long de l'événement. Si vous avez des questions ou avez besoin d'aide à tout moment, notre équipe de support est là pour vous aider. Profitez de votre temps à l'événement !",     
         "claimSeat": "Réclamer un siège",
         "alreadyClaimed": "Déjà réclamé"
     },

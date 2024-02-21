@@ -11,6 +11,9 @@
     "login": {
         "heading": "Log in to Claim Rewards",
         "helpText": "You are just one step away from claiming your rewards. Please log in now to claim your rewards. Remember, you can only claim your rewards once.",
+        "claimHelpText01": "Hello, You Have successfully Reserved your seat in ",
+        "claimHelpText02": " with this unique code ",
+        "claimHelpText03": "Please log in to claim your rewards.",
         "internetIdentity": "Internet Identity",
         "loading": "Loading..."
     },
@@ -20,7 +23,8 @@
         "noEvent": "No Name",
         "noSeat": "No Seat",
         "helpText": "Great to see you've logged in! You're now ready to claim your seat number for the ICP Event. Simply click the 'Claim Seat' button to get started. This number is key to accessing event materials and participating fully. If you run into any issues or have questions, our support team is here to assist you. Enjoy the event!",
-        "welcomeText": "Welcome to {{eventName}}! Your login via ICP has been successful, and you've claimed your seat with Number: {{seatNo}}. This number is key to your engagement and experiences throughout the event. Should you have any questions or require assistance at any point, our support team is here to help. Enjoy your time at the event!",
+        "welcomeText00": "Welcome to Event : " ,
+        "welcomeText01": "Your login via ICP has been successful, and you've claimed your seat with Number: {{seatNo}}. This number is key to your engagement and experiences throughout the event. Should you have any questions or require assistance at any point, our support team is here to help. Enjoy your time at the event!",
         "claimSeat": "Claim Seat",
         "alreadyClaimed": "Already Claimed"
     },

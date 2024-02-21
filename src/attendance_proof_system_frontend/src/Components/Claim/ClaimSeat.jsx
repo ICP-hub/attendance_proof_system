@@ -91,7 +91,14 @@ const ClaimSeat = () => {
                 <h2 className="text-center text-2xl sm:text-3xl font-bold text-blue-900 underline decoration-2 underline-offset-4 mb-4">{eventData?.name ?? t('claimSeat.noEvent')} </h2>
                 <div className="flex justify-start text-justify mt-[-20px] h-2/4 cursor-pointer my-2">
                   <p className="text-justify text-md sm:text-lg md:text-lg text-gray-600 lg:my-6 md:my-2 sm:my-1 max-h-32 overflow-y-auto px-4">
-                    {!isClaimed ? t("claimSeat.helpText") : t("claimSeat.welcomeText", { eventName: eventData?.name ?? t('claimSeat.noEvent') , seatNo: seatNo ?? t('claimSeat.noSeat')})} </p>
+                  {!isClaimed ? t("claimSeat.helpText") :
+                      <>
+                        <span>{t("claimSeat.welcomeText00")}</span>
+                        <span>{eventData?.name ?? t('claimSeat.noEvent')}. </span>
+                        <span>{t("claimSeat.welcomeText01", { seatNo: seatNo ?? t('claimSeat.noSeat') })}</span>
+                      </>
+                    }
+                  </p>
                 </div>
                 <div className="w-full flex justify-center">
                   <button className={`${isClaimed ? `bg-green-700 text-white border-green-700` : `bg-white hover:bg-blue-900`} border-2  text-blue-900 px-6 font-semibold py-1 rounded-md mr-2 md:w-auto text-xl  hover:text-white duration-300 ease-in-out border-blue-900`} onClick={() => { !isClaimed ? claimSeatHandler() : "" }}>
