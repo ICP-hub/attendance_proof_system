@@ -18,7 +18,7 @@ const SingleEventCard = ({ eventData, setEditEvent, setDeleteEvent }) => {
                     </div>
                 </div>
                 <div className='flex justify-center w-full'>
-                    <p className="text-center w-3/5 truncate text-2xl sm:text-3xl font-bold text-blue-900 underline decoration-2 underline-offset-4">{eventData?.name}</p>
+                    <p className="text-center truncate text-2xl sm:text-3xl font-bold text-blue-900 underline decoration-2 underline-offset-4">{eventData?.name}</p>
                 </div>
                 <div className="overflow-y-auto overflow-x-hidden my-4 flex justify-start items-start h-full flex-wrap w-full">
                     <p className="text-md sm:text-lg md:text-lg text-gray-600 lg:my-3 md:my-2 sm:my-1 max-h-32 px-2">{eventData?.description}</p>

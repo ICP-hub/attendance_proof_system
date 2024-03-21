@@ -36,7 +36,7 @@ const EventCard = ({ item }) => {
                 </div>
                 <div className='flex justify-center w-full'>
                     {/* Displaying event name */}
-                    <p className="text-center w-3/5 truncate text-2xl sm:text-3xl font-bold text-blue-900 underline decoration-2 underline-offset-4">
+                    <p className="text-center truncate text-2xl sm:text-3xl font-bold text-blue-900 underline decoration-2 underline-offset-4">
                         {eventInfo?.name}
                     </p>
                 </div>

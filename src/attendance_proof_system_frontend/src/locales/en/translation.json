@@ -55,7 +55,7 @@
         "startTimeTitle": "Start Time: ",
         "endTimeTitle": "End Time: ",
         "noTime": "No Time",
-        "totalSeatsTitle": "Total Seats: ",
+        "totalSeatsTitle": "QR Generated: ",
         "claimedSeatsTitle": "Claimed Seats: "
     },
     "addEventModal": {

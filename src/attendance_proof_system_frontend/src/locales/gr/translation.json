@@ -55,7 +55,7 @@
         "startTimeTitle": "Startzeit: ",
         "endTimeTitle": "Endzeit: ",
         "noTime": "Keine Zeit",
-        "totalSeatsTitle": "Gesamtsitze: ",
+        "totalSeatsTitle": "QR generiert: ",
         "claimedSeatsTitle": "Beanspruchte Sitze: "
     },
     "addEventModal": {

@@ -55,7 +55,7 @@
         "startTimeTitle": "शुरुआत का समय: ",
         "endTimeTitle": "समाप्ति का समय: ",
         "noTime": "कोई समय नहीं",
-        "totalSeatsTitle": "कुल सीटें: ",
+        "totalSeatsTitle": "क्यूआर उत्पन्न: ",
         "claimedSeatsTitle": "दावा की गई सीटें: "
     },
     "addEventModal": {
